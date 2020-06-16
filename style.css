@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,300&display=swap");
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://www.mercedes-benz.com/en/eq/concept-cars/vision-eqs/_jcr_content/root/slider/sliderchilditems/slideritem/mobileImage/MQ2-0-mobileImage-20190910094823/01-mercedes-benz-vision-eqs-show-car-mercedes-benz-eq-2560x1280.jpeg);
+    background-size: cover;
+    background-color: #2f3542;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+h1 {
+    color: #3742fa;
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 1px 5px 5px #111;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px #111;
+    background-color: #ffda79;
+}
+
+#header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #3742fa;
+
+}
+
+#nav-bar li {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#nav-bar li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    text-decoration: none;
+}
+
+#nav-bar li a:hover {
+    color: #2d98da;
+    transition: all 0.3s ease;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#subscribe p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+#email {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #34ace0;
+}
+
+#email:focus,
+#submit:focus {
+    outline: none;
+}
+
+#submit {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #34ace0;
+    background-color: #34ace0;
+    border-radius: 5px;
+}
+
+#submit:active {
+    transform: translateY(2px);
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #f5e4de;
+    border-radius: 5px;
+    margin: 20px 10px;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px #111;
+    text-align: center;
+}
+
+.card p {
+    text-align: left;
+    color: #2c2c54;
+    padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 12;
+    margin-top: 0px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.btn,
+.btn a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffa502;
+    border: 1px solid #ffa502;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer,
+.footer a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffda79;
+    color: #3742fa;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer i {
+    color: red;
+}
+
+@media (max-width: 480px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header li {
+        display: block;
+        text-align: left;
+    }
+}
