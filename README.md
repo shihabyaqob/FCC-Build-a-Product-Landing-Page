@@ -1,5 +1,5 @@
-# FCC-Build-a-Product-Landing-Page
-Responsive Web Design Projects - Build a Product Landing Page
+# FCC-Mercedes-Product-Landing-Page
+Responsive Web Design Projects - Build Mercedes Product Landing Page
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
